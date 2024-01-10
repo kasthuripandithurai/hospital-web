@@ -1,0 +1,495 @@
+body{
+    background-image: url("D:\Kasthuri\kasthuri\kasthuri\logo.jpg");
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    
+    
+}
+.head1{
+    width: 1800px;
+    background-image: url('hospital.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+
+.head1 h1{
+    
+    font-family:'Times New Roman', Times, serif;
+    border: 2px solid gray;
+    background-color: rgba(0, 255, 255, 0.438);
+    width:1800px;
+    height: 130px;
+    padding: 80px 50px 70px 80px ;
+    margin-right: 40px;
+    
+   
+   
+}  
+.main-div{
+    width:1800px;
+    background-color: #3ff;
+    height: 115px;
+}
+.main-div img{
+    float: left;
+    width: 100px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 50px;
+    
+    
+
+}
+.header-menu{
+    background-color: #3cf;
+    color: #fff;
+    margin-left: 300px;
+    height: 65px;
+    transform:skew(-20deg);
+    position: absolute;
+    top: 375px;
+
+}
+.header-menu ul{
+    top:375px;
+    margin-left: 50px;
+    height: 50px;
+    padding-top: 20px;
+    width:1500px;
+}
+.header-menu li{
+    display: inline;
+    text-decoration: none;
+    padding: 30px;
+    color: white;
+
+
+}
+.header-menu li a{
+    text-decoration: none;
+    color: black;
+}
+.header-menu li a:hover{
+    color: plum;
+}
+
+
+
+
+    
+   
+     
+    
+     .sub img{
+        float: left;
+        width: 400px;
+        height: 300px;
+        clear: both;
+    }
+    
+    .sub img p{
+        float: right;
+        top:400px;
+    position: absolute;
+        text-align: center;
+        align-items: center;
+        left: 630px;
+    }
+   
+    .p h1{
+        color:  rgb(0, 217, 255);
+        font-size: 25px;
+        margin-left: 50px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+    .p h4{
+        color:  rgb(0, 217, 255);
+        font-size: 20px;
+        margin-left: 50px;
+    }
+    .p button{
+        box-shadow: 1px 2px gray;
+        background-color: rgba(255, 0, 98, 0.678);
+        margin-top: 50px;
+        margin-left:180px ;
+    }
+    .lists ul{
+        width: 1500px;
+        height: 50px;
+        background-color:rgb(0, 217, 255) ;
+        margin-top: 95px;
+        list-style-type: square;
+    }
+    .lists li{
+        
+        display: inline;
+        padding: 20px 20px;
+        color: white;
+        box-sizing: border-box;
+        text-align: center;
+        align-items: center;
+        
+    
+        
+
+    }
+   
+    a{
+        display: inline;
+        padding: 20px;
+        
+    }
+    .lists ul{
+        padding-top: 10px;;
+        list-style-type: square;
+    }
+     
+
+    
+    .lists li a{
+        display: inline;
+        font-size: 20px;
+        list-style-type: square;
+        
+    }
+    
+    .cards{
+        background-color: aqua;
+       width: 260px;
+       height: 250px;
+       margin: 10px 10px 10px 10px;
+       left: 100px;
+       top:900px;
+       position: absolute;
+       
+
+   }
+    .cards img{
+        margin-left: 30px;
+        margin-top: 20px;
+        width: 180px;
+        height: 90px;
+    }
+    .cards h2{
+        margin-left: 20px;
+    }
+    .cards h3{
+        margin-left: 20px;
+    }
+    .cards button{
+        margin-left: 70px;
+        top:700px;
+        background-color: rgba(255, 0, 98, 0.678);
+        
+
+    }
+    .cards button:hover{
+        background-color: aquamarine;
+        color: palevioletred;
+    }
+    :hover .cards img{
+        transform: scale(1.1);
+    }
+    .cards1{
+        background-color: aqua;
+       width: 260px;
+       height: 250px;
+       margin: 10px 10px 10px 10px;
+       left: 450px;
+       top:900px;
+       position: absolute;
+       
+
+   }
+   .cards1{
+       margin-left: 30px;
+   }
+   .cards1 img{
+    margin-left: 30px;
+    margin-top: 20px;
+    height: 90px;
+}
+ 
+   .cards1 h2{
+    margin-left: 20px;
+}
+.cards1 h3{
+    margin-left: 20px;
+}
+:hover .cards1 img{
+    transform: scale(1.1);
+}
+   .cards1 button{
+       margin-left: 70px;
+       background-color: rgba(255, 0, 98, 0.678);
+       animation: move 1.2s linear infinite;
+       transition: all 0.5s;
+        
+   }
+   @keyframes move{
+    0%{
+        left: -120px;
+    }
+    100%{
+        left: 100px;
+    }
+   }
+   .cards2{
+    background-color: aqua;
+   width: 260px;
+   height: 250px;
+   margin: 10px 10px 10px 10px;
+   left: 830px;
+   top:900px;
+   position: absolute;
+   
+
+}
+.cards2p{
+    display: flex;
+}
+.cards2{
+   margin-left: 30px;
+}
+.cards2 img{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.cards2 h2{
+margin-left: 20px;
+}
+.cards2 h3{
+margin-left: 20px;
+}
+:hover .cards2 img{
+    transform: scale(0.8);
+}
+.cards2 button{
+   margin-left: 70px;
+   margin-bottom: 100px;
+   background-color: rgba(255, 0, 98, 0.678);
+   animation: color 1s linear infinite;
+        
+}
+
+
+.abouts{
+    margin-top:300px;
+}
+.abouts img{
+    margin-left: 20px;
+    object-fit: cover;
+    transition: transform 0.8s;
+    
+}
+ .abouts:hover img{
+    transform: scale(1.1);
+}
+.abouts p{
+    margin-left: 30px;
+
+}
+.abouts{
+    margin-top:300px;
+}
+.abouts img{
+    margin-left: 20px;
+}
+ .abouts1:hover img{
+    transform: scale(1.1);
+}
+.abouts p{
+    margin-left: 30px;
+
+}
+.special{
+    width: 1800px;
+    border: 1px solid gray;
+    height: 650px;
+    
+ }
+ .special h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    
+    margin-left: 500px;
+    
+
+    
+
+    
+ }
+.special p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 10px;
+    margin-right: 50px;
+}
+.special1 img{
+    float: left;
+    width: 300px;
+    height: 200px;
+    
+    
+}
+.special1 p{
+    float: right;
+   margin-left: 380px;
+   margin-top: -200px;
+   line-height: 1.6em;
+    
+}
+.special1 h2{
+    margin-left: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     margin-left: 500px;
+
+
+}
+
+ .special2 img{
+    float: left;
+    width: 300px;
+    height: 200px;
+    
+    margin-bottom: 10px;
+    margin-left: 20px;
+ }
+.special2 p{
+    float: right;
+    margin-left: 380px ;
+    margin-top:-200px;
+    line-height: 1.6em;
+}
+.special2 h1{
+    margin-top: 190px;
+}
+
+.form{
+    width: 450x;
+    height: 650px;
+    border: 2px solid gray;
+    
+    
+   
+}
+.form h2{
+    text-align: center;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 2px white;
+   
+}
+.form1{
+    float: left;
+    margin-left: 50px;
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top:2550px;
+}
+.form2{
+    float: right;
+    height: 350px;
+    width: 350px;
+    text-align: center;
+    align-items: center;
+    border: 2px solid gray;
+    margin:30px 350px 100px 350px;
+    background-color: cadetblue;
+    box-shadow: 5px 5px gray;
+    padding: 50px 0 20px 0;
+   position: absolute;
+    top: 2500px;
+    margin-left: 700px;
+   
+    
+ }  
+ .form2 .f{
+    margin-top: 50px;
+    
+ } 
+ .form2 button{
+    box-shadow: 1px black;
+    background-color: rgba(255, 0, 98, 0.678);
+
+ }
+ .form2 button:hover{
+    background-color: rgba(0, 174, 255, 0.678);
+    color: aqua;
+ }
+
+   
+ .footer{
+    width: 1800px;
+    height: 300px;
+    background-color: gray;
+    margin-bottom: -100px;
+
+ }
+ .footer1{
+    float: left;
+    display: block;
+    padding: 20px;
+    margin-left: 100px;
+ }
+ .footer1:hover{
+    color: rgb(0, 134, 139);
+    background-color: white;
+ }
+ .footer2{
+    float: left;
+    display: block;
+    padding: 20px;
+    margin-left: 250px;
+ }
+ .footer2:hover{
+    color: rgb(0, 118, 139);
+    background-color: white;
+ }
+ .footer3{
+    float: left;
+    display: block;
+    padding: 20px;
+    margin-left: 300px;
+ }
+ .footer3:hover{
+    color: rgb(0, 134, 139);
+    background-color: white;
+ }
+
+.f1{
+    margin-left: 500px;
+    position: absolute;
+    top: 3230px;
+
+}
+.f1 i:hover{
+    background-color: aqua;
+}
+ 
+ 
+   
+   
+   
+    
+
+    
+   
+    
+    
+
+
+    
+
+
+     
+
+   
+
